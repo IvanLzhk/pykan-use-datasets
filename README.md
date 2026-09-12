@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository benchmarks Kolmogorov-Arnold Networks (KAN) against traditional Multi-Layer Perceptrons (MLP) on classical tabular classification tasks. Rather than comparing a single fixed-size model of each type, the experiments sweep both architectures across **matched parameter budgets**, so that accuracy differences reflect the architecture itself rather than model capacity.
+This repository benchmarks Kolmogorov-Arnold Networks (KAN) against traditional Multi-Layer Perceptrons (MLP) on classical tabular classification tasks. Rather than comparing a single fixed-size model of each type, the experiments sweep both architectures across **matched parameter budgets**, so that accuracy differences reflect the architecture itself rather than model capacity. [Related work](https://docs.google.com/document/d/1hE92JGAb3wa7KMBt77qjW6xDCRuoPaZY/edit?usp=sharing&ouid=107728176522935886266&rtpof=true&sd=true)
 
 KAN replaces MLP's fixed nonlinearities on nodes with learnable B-spline activation functions on edges, which — per [Liu et al., 2024](https://arxiv.org/abs/2404.19756) — can offer better accuracy and interpretability at comparable or lower parameter counts.
 
